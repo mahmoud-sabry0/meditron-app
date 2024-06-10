@@ -1,5 +1,5 @@
 import React from "react";
-import img from '../unnamed.png'
+import img from '../../unnamed.png'
 import'./Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee, faSquare } from '@fortawesome/free-solid-svg-icons'
