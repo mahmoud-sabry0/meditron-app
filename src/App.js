@@ -1,19 +1,17 @@
 import "./App.css";
-import Navbars from "./Combonents/Nav/Navbar";
 import Home from "./Combonents/Bages/Home";
-import Footer from "./Combonents/Footer/Footer";
 import {
   Route,
   RouterProvider,
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
-import Layaut from "./Combonents/Layaut/Layaut";
+import Layout from "./Combonents/Layout/Layout";
 import Contact from "./Combonents/Contact/Contact";
 
 const routes = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<Layaut />}>
+    <Route path="/" element={<Layout />}>
       <Route path="/home" element={<Home />} />
       <Route path="/contact" element={<Contact />} />
     </Route>
